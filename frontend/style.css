@@ -53,12 +53,14 @@
   }
 
 .card h2 {
-      font-family: EB Garamond;
-      color: #33793f;
-      font-size: 48px;
+    margin-bottom: 20px;
+    font-family: EB Garamond;
+    color: #33793f;
+    font-size: 48px;
   }
 
 .card h6 {
+    margin-bottom: 30px;
     font-family: Montserrat;
     color: #999;
     font-size: 14px;
@@ -69,4 +71,13 @@
     font-family: EB Garamond;
     color: #999;
     font-size: 24px;
+}
+
+.br1 {
+    display:block;
+    margin-bottom: 1em;
+}
+
+.br2 {
+    display:block;
 }
