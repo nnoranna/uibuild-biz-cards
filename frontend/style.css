@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: none;
+    box-sizing: border-box;
+    background: transparent;
+    font-family: inherit;
+  }
+  a{
+    text-decoration: none;
+  }
+  a img {
+    border: none;
+  }
+  
+  button,
+  a {
+    cursor: pointer;
+    color: inherit;
+  }
+  
+  textarea {
+    resize: none;
+  }
+  
+  button,
+  textarea,
+  select {
+    appearance: none !important;
+    border-radius: 0;
+  }
+
+  /*---------------END of CSS RESET---------------*/
+
+
+#root {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    gap: 62px;
+    background-color: #ffeedf;
+  }
+
+.card {
+      width: 290px;
+      height: 416px;
+      padding: 27px;
+      background-color: #fff;
+  }
+
+.card h2 {
+      font-family: EB Garamond;
+      color: #33793f;
+      font-size: 48px;
+  }
+
+.card h6 {
+    font-family: Montserrat;
+    color: #999;
+    font-size: 14px;
+    letter-spacing: 0.1em;
+}
+
+.card p {
+    font-family: EB Garamond;
+    color: #999;
+    font-size: 24px;
+}
