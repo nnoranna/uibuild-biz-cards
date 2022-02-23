@@ -41,15 +41,15 @@
     align-items: center;
     justify-content: center;
     margin: auto;
-    gap: 62px;
+    column-gap: 62px;
     background-color: #ffeedf;
   }
 
 .card {
-      width: 290px;
-      height: 416px;
-      padding: 27px;
-      background-color: #fff;
+    width: 290px;
+    height: 416px;
+    padding: 27px;
+    background-color: #fff;
   }
 
 .card h2 {
